@@ -33,12 +33,16 @@ const Register = () => {
 
     }
 
+    if (user) {
+        navigate('/')
+    }
+
 
     console.log(user)
     console.log(error)
 
     return (
-        <div className='flex justify-center items-center mb-10'>
+        <div className='flex justify-center items-center my-12'>
             <div className="card w-96 bg-gray-200 shadow-xl">
                 <div className="card-body ">
                     <h2 className="text-center text-2xl font-bold">Sign Up</h2>
